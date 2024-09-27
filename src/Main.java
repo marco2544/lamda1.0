@@ -2,9 +2,10 @@
 public class Main {
     public static void main(String[] args) {
         //printTable();
-        Colori.ANSI_GREEN.print("questo testo è verde");
-        Colori o=new Colori(Colori.ANSI_GREEN.toString());
-        System.out.print(o.hilight("\nquesto testo è verde","verde"));
+        //Colori.ANSI_GREEN.print("questo testo è verde");
+       // Colori o=new Colori(Colori.ANSI_GREEN.toString());
+        //System.out.print(o.hilight("\nquesto testo è verde","verde\n"));
+        FileUtil.print("src/FileUtil.java","print");
     }
 
     public static void printTable(){
